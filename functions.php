@@ -1,8 +1,9 @@
 <php
 
-/*USER META IN FILTRI */
-
-/*through this function i can check on the frontend which meta are related to the logged in user. I used this to check if paid memberhship pro works. */
+//USER META IN FILTRI 
+//
+//through this function i can check on the frontend which meta are related to the logged in user. I used this to check if paid memberhship pro works. 
+     
 add_action( 'wp_ajax_app_user_pref', 'app_user_pref');
 function app_user_pref() {
 
